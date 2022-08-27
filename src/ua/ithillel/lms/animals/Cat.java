@@ -1,4 +1,4 @@
-package ua.ithillel.lms;
+package ua.ithillel.lms.animals;
 
 public class Cat extends Animal {
 
@@ -12,7 +12,7 @@ public class Cat extends Animal {
     }
 
     @Override
-    protected void run (int length) {
+    public void run (int length) {
         int limitRun = 200;
         if (length <= limitRun && length > 0) {
             System.out.printf("%s пробежал %d м.\n", name, length);
@@ -22,7 +22,7 @@ public class Cat extends Animal {
     }
 
     @Override
-    protected void swim (int length) {
+    public void swim (int length) {
         System.out.printf("%s не умеет плавать.\n", name);
     }
 

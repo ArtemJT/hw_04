@@ -1,4 +1,4 @@
-package ua.ithillel.lms;
+package ua.ithillel.lms.animals;
 
 public class Animal {
 
