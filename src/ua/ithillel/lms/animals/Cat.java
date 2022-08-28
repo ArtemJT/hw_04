@@ -21,11 +21,6 @@ public class Cat extends Animal {
         }
     }
 
-    @Override
-    public void swim (int length) {
-        System.out.printf("%s не умеет плавать.\n", name);
-    }
-
     public static int getCountCats () {
         return countCats;
     }

@@ -18,7 +18,6 @@ public class Main {
         cat = new Cat("Кузя");
 
         cat.run(222);
-        cat.swim(10);
         dog.run(555);
         dog.swim(15);
 
