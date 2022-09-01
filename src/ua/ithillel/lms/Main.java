@@ -6,7 +6,7 @@ import ua.ithillel.lms.animals.Dog;
 
 public class Main {
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Dog dog = new Dog("Шарик");
         Cat cat = new Cat("Мурзик");
 
